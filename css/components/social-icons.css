@@ -1,0 +1,18 @@
+.social-icons {
+    display: flex;              
+    justify-content: center;    
+    margin-top: 20px;           
+}
+
+.social-icons a {
+    font-size: 30px;            
+    color: #FFFFFF;             
+    margin: 0 15px;             
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.social-icons a:hover {
+    color: #FF3B30;             
+    transform: scale(1.2);  
+    text-shadow: 0 0 10px rgba(255, 59, 48, 0.8);    
+}
